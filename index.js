@@ -30,7 +30,7 @@ const CONNECTION_URL =
 app.use(express());
 app.use(
   cors({
-    origin: "*", // You can specify your React app URL here for better security
+    origin: "http://192.168.31.92:3000/", // You can specify your React app URL here for better security
   })
 );
 
